@@ -13,43 +13,41 @@ class ProfileView extends StatelessWidget {
             title: const Text("Safa")),
         body: Container(
           color: Colors.blue,
-          width: 300,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Container(
-                color: Colors.green,
-                height: 100,
-                width: 100,
-                child: const Text("SAFA"),
-              ),
-              Container(
-                color: Colors.red,
-                height: 100,
-                width: 100,
-                child: const Text("SAFA"),
-              ),
-              Container(
-                color: Colors.grey,
-                height: 100,
-                width: 100,
-                child: const Text("SAFA"),
-              ),
-              Container(
-                color: Colors.black,
-                height: 100,
-                width: 100,
-                child: const Text("SAFA"),
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 100,
-                width: 100,
-                child: const Text("SAFA"),
-              ),
-            ],
-          ),
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  color: Colors.pink,
+                  height: 100,
+                  width: 100,
+                  child: const Text("SAFA"),
+                ),
+                Container(
+                  color: Colors.grey,
+                  height: 100,
+                  width: 100,
+                  child: const Text("SAFA"),
+                ),
+                Container(
+                  color: Colors.yellow,
+                  height: 100,
+                  width: 100,
+                  child: const Text("SAFA"),
+                ),
+                Container(
+                  color: Colors.purple,
+                  height: 100,
+                  width: 100,
+                  child: const Text("SAFA"),
+                ),
+                Container(
+                    color: Colors.green,
+                    height: 100,
+                    width: 100,
+                    child: const Text("SAFA"))
+              ]),
         ));
   }
 }
